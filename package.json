@@ -1,6 +1,6 @@
 {
   "name": "@mvd/sqlite-mcp",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Model Context Protocol (MCP) server for SQLite database operations",
   "main": "dist/index.js",
   "type": "module",
