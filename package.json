@@ -1,0 +1,32 @@
+{
+  "name": "@mvd/sqlite-mcp",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "bin": {
+    "@mvd/sqlite-mcp": "./dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc && node -e \"require('fs').chmodSync('dist/index.js', '755')\"",
+    "test": "vitest",
+    "test:run": "vitest run"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.10.0",
+    "typescript": "^5.7.2",
+    "vitest": "^2.1.8"
+  },
+  "dependencies": {
+    "@modelcontextprotocol/sdk": "^1.4.0",
+    "@types/sqlite3": "^3.1.11",
+    "sqlite3": "^5.1.7",
+    "zod": "^3.25.76"
+  }
+}
